@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#banner {
+    height: 160px;
+    background: #0e3c84;
+}
+
+#banner > div {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+#banner .prev,
+#banner .next,
+#banner .control,
+#banner .close {
+    position: absolute;
+}
+#banner .prev{
+    left: 0;
+    top: 42px;
+}
+#banner .next{
+    right: 0;
+    top: 42px;
+}
+#banner .control{
+    left: 0;
+    bottom: 11px;
+}
