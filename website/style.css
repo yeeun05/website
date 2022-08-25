@@ -28,4 +28,17 @@
 #banner .control{
     left: 0;
     bottom: 11px;
+    font-size: 0;
+}
+#banner .control a {
+    margin: 0 15px 0 0;
+}
+#banner .close {
+    right: 0;
+    bottom: 4px;
+}
+#banner .close label {
+    padding: 0 22px 0 0;
+    font-size: 11px;
+    color: #fff;
 }
